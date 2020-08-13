@@ -1,0 +1,25 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f2f2f2;
+  color: #4a4a4a;
+  font-family: "Helvetica", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 1200px;
+
+  .template {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+
+    .buttonWrapper {
+      align-self: flex-end;
+    }
+  }
+}
